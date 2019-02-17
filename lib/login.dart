@@ -15,6 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Flexible(
@@ -225,6 +226,7 @@ class _LoginPageState extends State<LoginPage> {
             )
           ],
         ),
+          ),
       ),
     );
   }

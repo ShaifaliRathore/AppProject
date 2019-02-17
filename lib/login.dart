@@ -145,8 +145,8 @@ class _LoginPageState extends State<LoginPage> {
                         ]
                     ),
                     child: new CheckboxListTile(
-                     /* value: ,
-                      onChanged: _onChanged,*/
+                      value: ,
+                      onChanged: _onChanged,
                       title: new Text("Remember me"),
                       controlAffinity: ListTileControlAffinity.leading,
                     ),

@@ -73,6 +73,7 @@ class _RegisterState extends State<Register> {
         ),
       ),
       body: Container(
+        child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Container(
@@ -312,6 +313,7 @@ class _RegisterState extends State<Register> {
               ),
             )
           ],
+        ),
         ),
       ),
     );
